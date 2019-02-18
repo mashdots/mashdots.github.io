@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono|Volkhov');
 
 /* ---------------------------------------------------- Elements ---------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-    background-color: #12263a;
+    background-color: #f4f4f4;
     font-family: 'Ubuntu', Tahoma, sans-serif;
-    color: #eef4fa;
+    color: #003a5d;
     text-align: center;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* ------------------------------------------------------ IDs ------------------------------------------------------- */
+#frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 /* ---------------------------------------------------- Classes ----------------------------------------------------- */
+#headline .title {
+    font-family: 'Volkhov', Georgia, Times, serif;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.block {
+    display: block;
+    margin: 0 auto;
+}
+
+.profile img {
+    width: 150px;
+}
